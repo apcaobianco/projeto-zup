@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    initialization-mode: never
+    url: jdbc:postgresql://localhost:5432/testezup
+    username: postgres
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
